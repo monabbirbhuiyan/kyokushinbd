@@ -241,7 +241,7 @@ const Navbar = () => {
           className="flex items-center justify-center border-2 rounded-full lg:hidden z-2 size-10 border-s4/25"
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
-          <img
+          <Image
             src={`/assets/${isOpen ? "close" : "magic"}.svg`}
             alt="magic"
             className="object-contain size-1/2"
