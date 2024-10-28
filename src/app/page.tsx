@@ -17,7 +17,7 @@ export default function Home() {
             </h1>
 
             {/* Model Viewer */}
-            <div className="flex items-center justify-center w-full h-full">
+            <div className="flex items-center justify-center w-full h-full max-lg:hidden">
               <ModelViewer />
             </div>
 
