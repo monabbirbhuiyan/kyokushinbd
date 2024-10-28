@@ -107,19 +107,19 @@ const Navbar = () => {
     };
   }, []);
 
-  const NavLink = ({ title }: { title: string }) => (
-    <LinkScroll
-      onClick={() => setIsOpen(false)}
-      to={title}
-      offset={-100}
-      spy
-      smooth
-      activeClass="nav-active"
-      className="uppercase transition-colors duration-500 cursor-pointer base-bold text-p4 hover:text-p1 max-lg:my-4 max-lg:h5"
-    >
-      {title}
-    </LinkScroll>
-  );
+  // const NavLink = ({ title }: { title: string }) => (
+  //   <LinkScroll
+  //     onClick={() => setIsOpen(false)}
+  //     to={title}
+  //     offset={-100}
+  //     spy
+  //     smooth
+  //     activeClass="nav-active"
+  //     className="uppercase transition-colors duration-500 cursor-pointer base-bold text-p4 hover:text-p1 max-lg:my-4 max-lg:h5"
+  //   >
+  //     {title}
+  //   </LinkScroll>
+  // );
 
   return (
     <header

@@ -12,9 +12,7 @@ export default function ModelViewer() {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
-      mountRef.current
-        ? mountRef.current.clientWidth / mountRef.current.clientHeight
-        : 1,
+      mountNode ? mountNode.clientWidth / mountNode.clientHeight : 1,
       0.1,
       1000
     );
@@ -22,13 +20,13 @@ export default function ModelViewer() {
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(
-      mountRef.current ? mountRef.current.clientWidth : window.innerWidth,
-      mountRef.current ? mountRef.current.clientHeight : window.innerHeight
+      mountNode ? mountNode.clientWidth : window.innerWidth,
+      mountNode ? mountNode.clientHeight : window.innerHeight
     );
     renderer.setPixelRatio(window.devicePixelRatio);
 
-    if (mountRef.current) {
-      mountRef.current.appendChild(renderer.domElement);
+    if (mountNode) {
+      mountNode.appendChild(renderer.domElement);
     }
 
     const light = new THREE.DirectionalLight(0xffffff, 2);
@@ -66,9 +64,9 @@ export default function ModelViewer() {
     });
 
     const handleResize = () => {
-      if (mountRef.current) {
-        const width = mountRef.current.clientWidth;
-        const height = mountRef.current.clientHeight;
+      if (mountNode) {
+        const width = mountNode.clientWidth;
+        const height = mountNode.clientHeight;
         renderer.setSize(width, height);
         camera.aspect = width / height;
         camera.updateProjectionMatrix();
