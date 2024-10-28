@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const ExecutiveCommittee = (props: Props) => {
+const ExecutiveCommittee = () => {
   return <div>ExecutiveCommittee</div>;
 };
 
