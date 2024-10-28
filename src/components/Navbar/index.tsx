@@ -1,5 +1,4 @@
 "use client";
-import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import Image from "next/image";

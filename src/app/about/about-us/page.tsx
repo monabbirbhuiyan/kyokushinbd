@@ -1,11 +1,10 @@
+"use client";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-const AboutUs = (props: Props) => {
+const AboutUs = () => {
   return (
     <>
       <div className="relative flex h-[700px] w-full flex-col items-center justify-center overflow-hidden bg-s2 md:shadow-xl">
