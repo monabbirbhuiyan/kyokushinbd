@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import ModelViewer from "@/components/Kanku3D/model";
 import { HeroHighlight } from "@/components/ui/hero-highlight";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -42,16 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer>
-        <div className="w-full h-22 flex flex-col bg-black items-center justify-center">
-          <div className="text-md text-white ">
-            Copyright © 2024 Kyokushin Bangladesh {""}
-          </div>
-          <div className="text-md text-white ">
-            Developed by <span className="base-bold">Code & Crust</span>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

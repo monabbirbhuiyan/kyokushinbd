@@ -110,8 +110,10 @@ const Navbar = () => {
   return (
     <header
       className={clsx(
-        "fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-4",
-        hasScrolled && "py-2 bg-black-300 backdrop-blur-[20px]"
+        `fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-4 ${
+          hasScrolled ? "bg-s2" : "bg-black"
+        } `,
+        hasScrolled && "py-2 bg-black-300 backdrop-blur-[10px]"
       )}
     >
       <div className="container flex items-center h-14 max-lg:px-5">
@@ -133,16 +135,20 @@ const Navbar = () => {
           <div className="max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4">
             <Menu setActive={setActive}>
               <li className="nav-li">
-                <MenuItem setActive={setActive} active={null} item="Home" />
+                <Link href={"/"}>
+                  <MenuItem setActive={setActive} active={null} item="Home" />
+                </Link>
                 <div className="dot" />
                 <MenuItem setActive={setActive} active={active} item="About">
                   <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">About Us</HoveredLink>
-                    <HoveredLink href="/interface-design">
+                    <HoveredLink href="/about/about-us">About Us</HoveredLink>
+                    <HoveredLink href="/about/mission-and-vision">
                       Mission & Vision
                     </HoveredLink>
-                    <HoveredLink href="/seo">Board of Advisors</HoveredLink>
-                    <HoveredLink href="/branding">
+                    <HoveredLink href="/about/board-of-advisors">
+                      Board of Advisors
+                    </HoveredLink>
+                    <HoveredLink href="/about/executive-committee">
                       Executive Committee
                     </HoveredLink>
                   </div>
@@ -160,15 +166,7 @@ const Navbar = () => {
                 </MenuItem>
               </li>
               <li className="nav-logo">
-                <LinkScroll
-                  to="hero"
-                  offset={-250}
-                  spy
-                  smooth
-                  className={clsx(
-                    "max-lg:hidden transition-transform duration-500 cursor-pointer"
-                  )}
-                >
+                <Link href={"/"} className="cursor-pointer">
                   <motion.div
                     animate={{ scale: hasScrolled ? 0.5 : 1 }}
                     transition={{ duration: 0.3 }}
@@ -180,7 +178,7 @@ const Navbar = () => {
                       alt="Kyokushin Bangladesh"
                     />
                   </motion.div>
-                </LinkScroll>
+                </Link>
               </li>
               <li className="nav-li">
                 <MenuItem setActive={setActive} active={active} item="Events">
@@ -229,6 +227,8 @@ const Navbar = () => {
         >
           <Image
             src={`/assets/${isOpen ? "close" : "magic"}.svg`}
+            height={100}
+            width={100}
             alt="magic"
             className="object-contain size-1/2"
           />
