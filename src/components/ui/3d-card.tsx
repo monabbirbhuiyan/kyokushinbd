@@ -1,7 +1,6 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import React, {
   createContext,
   useState,
@@ -36,11 +35,13 @@ export const CardContainer = ({
   };
 
   const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     setIsMouseEntered(true);
     if (!containerRef.current) return;
   };
 
   const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     if (!containerRef.current) return;
     setIsMouseEntered(false);
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;

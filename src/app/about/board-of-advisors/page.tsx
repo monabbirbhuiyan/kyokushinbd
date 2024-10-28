@@ -2,7 +2,6 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const BoardOfAdvisors = () => {
