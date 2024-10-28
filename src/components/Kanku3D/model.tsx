@@ -8,6 +8,7 @@ export default function ModelViewer() {
   const mountRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const mountNode = mountRef.current;
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
@@ -78,8 +79,8 @@ export default function ModelViewer() {
 
     return () => {
       window.removeEventListener("resize", handleResize);
-      if (mountRef.current) {
-        mountRef.current.removeChild(renderer.domElement);
+      if (mountNode) {
+        mountNode.removeChild(renderer.domElement);
       }
     };
   }, []);

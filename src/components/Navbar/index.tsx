@@ -107,7 +107,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const NavLink = ({ title }: any) => (
+  const NavLink = ({ title }: { title: string }) => (
     <LinkScroll
       onClick={() => setIsOpen(false)}
       to={title}
