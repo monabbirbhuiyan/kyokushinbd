@@ -25,36 +25,53 @@ export const MenuItem = ({
   item: string;
   children?: React.ReactNode;
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Toggle dropdown on mobile devices
+  const handleClick = () => {
+    if (window.innerWidth < 1024) {
+      setIsOpen(!isOpen);
+    } else {
+      setActive(item);
+    }
+  };
+
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => !isOpen && setActive(item)} className="relative">
       <motion.p
+        onClick={handleClick}
         transition={{ duration: 0.3 }}
         className="uppercase transition-colors duration-500 cursor-pointer base-bold text-p4 hover:text-p1 max-lg:my-4 max-lg:h5"
       >
         {item}
       </motion.p>
-      {active !== null && (
+
+      {(isOpen || active === item) && (
         <motion.div
           initial={{ opacity: 0, scale: 0.85, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={transition}
         >
-          {active === item && (
-            <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4">
+          <div
+            className={`absolute ${
+              isOpen
+                ? "relative"
+                : "top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2"
+            } pt-4`}
+          >
+            <motion.div
+              transition={transition}
+              layoutId="active" // layoutId ensures smooth animation
+              className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
+            >
               <motion.div
-                transition={transition}
-                layoutId="active" // layoutId ensures smooth animation
-                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
+                layout // layout ensures smooth animation
+                className="h-full p-4 w-max"
               >
-                <motion.div
-                  layout // layout ensures smooth animation
-                  className="h-full p-4 w-max"
-                >
-                  {children}
-                </motion.div>
+                {children}
               </motion.div>
-            </div>
-          )}
+            </motion.div>
+          </div>
         </motion.div>
       )}
     </div>
