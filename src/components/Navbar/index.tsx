@@ -116,14 +116,14 @@ const Navbar = () => {
       )}
     >
       <div className="container flex items-center h-14 max-lg:px-5">
-        <a className="flex-1 cursor-pointer lg:hidden z-2" href="/">
+        <Link className="flex-1 cursor-pointer lg:hidden z-2" href="/">
           <Image
             src="/assets/KanjiBack.png"
             width={150}
             height={150}
             alt="Kyokushin Bangladesh"
           />
-        </a>
+        </Link>
 
         <div
           className={clsx(
