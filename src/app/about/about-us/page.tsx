@@ -31,28 +31,29 @@ const AboutUs = () => {
             mind. Through this practice, we aspire to build character, instill
             resilience, and encourage a spirit of humility, ambition, and
             serenity in all our practitioners. &nbsp;
-            <br></br> <br></br>Our philosophy draws deeply from the teachings of
-            Kyokushin founder, Sosai Mas Oyama, who advocated for a balanced
-            life guided by the principles of modesty, ambition, and respect. His
-            words, “Keep your head low (modesty), eyes high (ambition), mouth
-            shut (serenity), while basing yourself on filial piety and
-            benefiting others,” resonate at the core of our training. These
-            values serve not only as guiding principles within our dojo but also
-            as foundations for living meaningfully and contributing positively
-            to society. &nbsp;<br></br> <br></br> Kyokushin Karate Bangladesh
-            stands firmly against discrimination and prejudice. We believe that
-            karate transcends boundaries, celebrating unity among individuals of
-            all ethnicities, races, nationalities, religions, genders, and ages.
-            Our community is built on inclusivity and mutual respect,
-            recognizing that every individual has the right to train, learn, and
-            grow within a supportive environment.&nbsp;<br></br> <br></br> Our
-            ultimate aim extends beyond individual development; we aspire to
-            foster bonds of international friendship, respect, and understanding
-            through our shared passion for Kyokushin Karate. With each practice
-            and every gathering, we strive for a world of stronger, more
-            respectful relationships, and a vision of lasting peace. Join us in
-            this pursuit, as we cultivate not just martial skills but values
-            that shape a better world.
+            <br /> <br />
+            Our philosophy draws deeply from the teachings of Kyokushin founder,
+            Sosai Mas Oyama, who advocated for a balanced life guided by the
+            principles of modesty, ambition, and respect. His words, “Keep your
+            head low (modesty), eyes high (ambition), mouth shut (serenity),
+            while basing yourself on filial piety and benefiting others,”
+            resonate at the core of our training. These values serve not only as
+            guiding principles within our dojo but also as foundations for
+            living meaningfully and contributing positively to society. &nbsp;
+            <br /> <br /> Kyokushin Karate Bangladesh stands firmly against
+            discrimination and prejudice. We believe that karate transcends
+            boundaries, celebrating unity among individuals of all ethnicities,
+            races, nationalities, religions, genders, and ages. Our community is
+            built on inclusivity and mutual respect, recognizing that every
+            individual has the right to train, learn, and grow within a
+            supportive environment.&nbsp;
+            <br /> <br /> Our ultimate aim extends beyond individual
+            development; we aspire to foster bonds of international friendship,
+            respect, and understanding through our shared passion for Kyokushin
+            Karate. With each practice and every gathering, we strive for a
+            world of stronger, more respectful relationships, and a vision of
+            lasting peace. Join us in this pursuit, as we cultivate not just
+            martial skills but values that shape a better world.
           </p>
         </div>
       </section>
@@ -68,7 +69,7 @@ const AboutUs = () => {
       </div>
 
       <div className="mt-22 mb-20">
-        <p className="px-20 text-justify mb-7 text-2xl text-rose-800 text-bold mx-22">
+        <p className="px-20 text-justify mb-7 text-2xl text-rose-800 font-semibold mx-22">
           খিউকুশিন কারাতে! জাতি, জাতীয়তা, রাজনীতি, দর্শন, ধর্ম, লিঙ্গ বা বয়সের
           উপর ভিত্তি করে কুসংস্কার প্রচার বা অনুশীলন করে না, বরং স্বীকার করে যে
           প্রত্যেকের সমান অধিকার রয়েছে। খিউকুশিন কারাতের সর্বশ্রেষ্ঠ সাধনা হল
