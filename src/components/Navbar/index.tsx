@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 const transition = {
@@ -110,8 +110,6 @@ const Navbar = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [active, setActive] = useState<string | null>(null);
-  const [isSubMenuOpen, setIsSubMenuOpen] = useState(false); // For submenu sliding
-  const [selectedMenu, setSelectedMenu] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -124,15 +122,6 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const handleMenuClick = (menu: string) => {
-    setSelectedMenu(menu);
-    setIsSubMenuOpen(true);
-  };
-
-  const goBack = () => {
-    setIsSubMenuOpen(false);
-  };
 
   return (
     <header
@@ -160,152 +149,91 @@ const Navbar = () => {
           )}
         >
           <div className="max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4">
-            <AnimatePresence>
-              {isSubMenuOpen ? (
-                <motion.div
-                  initial={{ x: "100%" }}
-                  animate={{ x: 0 }}
-                  exit={{ x: "100%" }}
-                  transition={{ duration: 0.3 }}
-                  className="fixed inset-0 bg-s2 z-50 p-4"
-                >
-                  <button onClick={goBack} className="p-4 text-white">
-                    Back
-                  </button>
-                  <div className="p-4">
-                    {selectedMenu === "About" && (
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <Link href="/about/about-us">About Us</Link>
-                        <Link href="/about/mission-and-vision">
-                          Mission & Vision
-                        </Link>
-                        <Link href="/about/board-of-advisors">
-                          Board of Advisors
-                        </Link>
-                        <Link href="/about/executive-committee">
-                          Executive Committee
-                        </Link>
-                      </div>
-                    )}
-                    {selectedMenu === "Info" && (
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <Link href="/web-dev">Admission</Link>
-                        <Link href="/interface-design">Class Routine</Link>
-                        <Link href="/seo">Yearly Schedule</Link>
-                        <Link href="/branding">Others</Link>
-                      </div>
-                    )}
-                    {/* Add other menus here similarly */}
+            <Menu setActive={setActive}>
+              <li className="nav-li">
+                <Link href={"/"}>
+                  <MenuItem setActive={setActive} active={null} item="Home" />
+                </Link>
+                <div className="dot" />
+                <MenuItem setActive={setActive} active={active} item="About">
+                  <div className="flex flex-col space-y-4 text-sm">
+                    <HoveredLink href="/about/about-us">About Us</HoveredLink>
+                    <HoveredLink href="/about/mission-and-vision">
+                      Mission & Vision
+                    </HoveredLink>
+                    <HoveredLink href="/about/board-of-advisors">
+                      Board of Advisors
+                    </HoveredLink>
+                    <HoveredLink href="/about/executive-committee">
+                      Executive Committee
+                    </HoveredLink>
                   </div>
-                </motion.div>
-              ) : (
-                <Menu setActive={setActive}>
-                  <li className="nav-li">
-                    <Link href={"/"}>
-                      <MenuItem
-                        setActive={setActive}
-                        active={null}
-                        item="Home"
-                      />
-                    </Link>
-                    <div className="dot" />
-                    <MenuItem
-                      setActive={setActive}
-                      active={active}
-                      item="About"
-                    >
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/about/about-us">
-                          About Us
-                        </HoveredLink>
-                        <HoveredLink href="/about/mission-and-vision">
-                          Mission & Vision
-                        </HoveredLink>
-                        <HoveredLink href="/about/board-of-advisors">
-                          Board of Advisors
-                        </HoveredLink>
-                        <HoveredLink href="/about/executive-committee">
-                          Executive Committee
-                        </HoveredLink>
-                      </div>
-                    </MenuItem>
-                    <div className="dot" />
-                    <MenuItem setActive={setActive} active={active} item="Info">
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/web-dev">Addmission</HoveredLink>
-                        <HoveredLink href="/interface-design">
-                          Class Routine
-                        </HoveredLink>
-                        <HoveredLink href="/seo">Yearly Schedule</HoveredLink>
-                        <HoveredLink href="/branding">Others</HoveredLink>
-                      </div>
-                    </MenuItem>
-                  </li>
-                  <li className="nav-logo">
-                    <Link href={"/"} className="cursor-pointer max-lg:hidden">
-                      <motion.div
-                        animate={{ scale: hasScrolled ? 0.5 : 1 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <Image
-                          src="/assets/KanjiBack.png"
-                          width={250}
-                          height={250}
-                          alt="Kyokushin Bangladesh"
-                        />
-                      </motion.div>
-                    </Link>
-                  </li>
-                  <li className="nav-li">
-                    <MenuItem
-                      setActive={setActive}
-                      active={active}
-                      item="Events"
-                    >
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/web-dev">Tournaments</HoveredLink>
-                        <HoveredLink href="/interface-design">
-                          Kyu Belt Test
-                        </HoveredLink>
-                        <HoveredLink href="/seo">Black Belt Test</HoveredLink>
-                        <HoveredLink href="/branding">Camp</HoveredLink>
-                      </div>
-                    </MenuItem>
-                    <div className="dot" />
-                    <MenuItem
-                      setActive={setActive}
-                      active={active}
-                      item="Branches"
-                    >
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/web-dev">
-                          Gulshan Branch
-                        </HoveredLink>
-                        <HoveredLink href="/interface-design">
-                          Haluaghat Branch
-                        </HoveredLink>
-                        <HoveredLink href="/seo">Uttara Branch</HoveredLink>
-                        <HoveredLink href="/branding">
-                          Mohakhali DOHS Branch
-                        </HoveredLink>
-                        <HoveredLink href="/branding">
-                          Chittagong Branch
-                        </HoveredLink>
-                      </div>
-                    </MenuItem>
-                    <div className="dot" />
-                    <div className="cursor-pointer max-lg:my-4 max-lg:h5">
-                      <button className="p-[3px] relative">
-                        <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-rose-800 to-gray-200" />
-                        <div className="px-5 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:text-black hover:bg-transparent base-bold">
-                          Contact
-                        </div>
-                      </button>
+                </MenuItem>
+                <div className="dot" />
+                <MenuItem setActive={setActive} active={active} item="Info">
+                  <div className="flex flex-col space-y-4 text-sm">
+                    <HoveredLink href="/web-dev">Addmission</HoveredLink>
+                    <HoveredLink href="/interface-design">
+                      Class Routine
+                    </HoveredLink>
+                    <HoveredLink href="/seo">Yearly Schedule</HoveredLink>
+                    <HoveredLink href="/branding">Others</HoveredLink>
+                  </div>
+                </MenuItem>
+              </li>
+              <li className="nav-logo">
+                <Link href={"/"} className="cursor-pointer max-lg:hidden">
+                  <motion.div
+                    animate={{ scale: hasScrolled ? 0.5 : 1 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <Image
+                      src="/assets/KanjiBack.png"
+                      width={250}
+                      height={250}
+                      alt="Kyokushin Bangladesh"
+                    />
+                  </motion.div>
+                </Link>
+              </li>
+              <li className="nav-li">
+                <MenuItem setActive={setActive} active={active} item="Events">
+                  <div className="flex flex-col space-y-4 text-sm">
+                    <HoveredLink href="/web-dev">Tournaments</HoveredLink>
+                    <HoveredLink href="/interface-design">
+                      Kyu Belt Test
+                    </HoveredLink>
+                    <HoveredLink href="/seo">Black Belt Test</HoveredLink>
+                    <HoveredLink href="/branding">Camp</HoveredLink>
+                  </div>
+                </MenuItem>
+                <div className="dot" />
+                <MenuItem setActive={setActive} active={active} item="Branches">
+                  <div className="flex flex-col space-y-4 text-sm">
+                    <HoveredLink href="/web-dev">Gulshan Branch</HoveredLink>
+                    <HoveredLink href="/interface-design">
+                      Haluaghat Branch
+                    </HoveredLink>
+                    <HoveredLink href="/seo">Uttara Branch</HoveredLink>
+                    <HoveredLink href="/branding">
+                      Mohakhali DOHS Branch
+                    </HoveredLink>
+                    <HoveredLink href="/branding">
+                      Chittagong Branch
+                    </HoveredLink>
+                  </div>
+                </MenuItem>
+                <div className="dot" />
+                <div className="cursor-pointer max-lg:my-4 max-lg:h5">
+                  <button className="p-[3px] relative">
+                    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-rose-800 to-gray-200" />
+                    <div className="px-5 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:text-black hover:bg-transparent base-bold">
+                      Contact
                     </div>
-                  </li>
-                </Menu>
-              )}
-            </AnimatePresence>
+                  </button>
+                </div>
+              </li>
+            </Menu>
           </div>
         </div>
 
