@@ -2,17 +2,19 @@ import Navbar from "@/components/Navbar";
 import ModelViewer from "@/components/Kanku3D/model";
 import { HeroHighlight } from "@/components/ui/hero-highlight";
 import Footer from "@/components/footer";
+//import Navbar from "@/components/header/Navbar";
 
 export default function Home() {
   return (
     <>
       <Navbar />
+
       <section className="relative flex flex-col items-center justify-center w-screen h-screen">
         {/* Dotted BG */}
         <HeroHighlight>
           <div className="relative flex flex-col lg:flex-row items-center justify-center w-full h-full">
             {/* "Kyokushin" Text on Left */}
-            <h1 className="lg:absolute lg:left-[10%] text-[36px] lg:text-[64px] font-bold text-white tracking-wide transform scale-125 lg:scale-y-150 mb-[-170px] lg:mb-0">
+            <h1 className="lg:absolute lg:left-[10%] text-[36px] lg:text-[64px] font-bold text-white tracking-wide uppercase transform scale-125 lg:scale-y-150 mb-[-170px] lg:mb-0">
               Kyokushin
             </h1>
 
@@ -22,7 +24,7 @@ export default function Home() {
             </div>
 
             {/* "Bangladesh" Text on Right */}
-            <h1 className="lg:absolute lg:right-[10%] text-[36px] lg:text-[64px] font-bold text-white  transform scale-125 lg:scale-y-150 mt-[-180px] lg:mt-0">
+            <h1 className="lg:absolute lg:right-[10%] text-[36px] lg:text-[64px] uppercase font-bold text-white  transform scale-125 lg:scale-y-150 mt-[-180px] lg:mt-0">
               Bangladesh
             </h1>
 

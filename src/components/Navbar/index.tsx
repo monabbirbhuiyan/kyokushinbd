@@ -210,15 +210,19 @@ const Navbar = () => {
                 <div className="dot" />
                 <MenuItem setActive={setActive} active={active} item="Branches">
                   <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Gulshan Branch</HoveredLink>
-                    <HoveredLink href="/interface-design">
+                    <HoveredLink href="/branches/gulshan-branch">
+                      Gulshan Branch
+                    </HoveredLink>
+                    <HoveredLink href="/branches/haluaghat-branch">
                       Haluaghat Branch
                     </HoveredLink>
-                    <HoveredLink href="/seo">Uttara Branch</HoveredLink>
-                    <HoveredLink href="/branding">
+                    <HoveredLink href="/branches/uttara-branch">
+                      Uttara Branch
+                    </HoveredLink>
+                    <HoveredLink href="/branches/mohakhali-dohs-branch">
                       Mohakhali DOHS Branch
                     </HoveredLink>
-                    <HoveredLink href="/branding">
+                    <HoveredLink href="/branches/chittagong-branch">
                       Chittagong Branch
                     </HoveredLink>
                   </div>
