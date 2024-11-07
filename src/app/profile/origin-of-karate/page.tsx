@@ -68,19 +68,19 @@ const OriginOfKarate = () => {
             Karate, in its truest sense, originated with man himself. Primitive
             men were forced to defend themselves and their homes from wild
             beasts and from marauding raids from other tribes. To do so, it was
-            essential that they device a method of fighting, and each method,
+            essential that they devise a method of fighting, and each method,
             developing individually in different regions, remains in some form
-            or another even today. Karate's historical significance is profound
-            particularly in connection with the history of China.
+            or another even today. Karate&apos;s historical significance is
+            profound particularly in connection with the history of China.
             <br />
             <br />
-            From the many fighting methods developed in China's long history,
-            Kempo, a system of unarmed combat, is the one from which Karate
-            sprang. The kempo system most closely related to Karate is the
-            Shao-lin-ssu school, named after a famous Bhuddhist monastery, the
-            Shao-lin-ssu on Mt. Hao on the lower reaches of the Yangtze river.
-            Bodhidharma, the semi-legendary Buddhist priest who brought Zen
-            (Ch`an in Chinese) into China is said to be the founder of the
+            From the many fighting methods developed in China&apos;s long
+            history, Kempo, a system of unarmed combat, is the one from which
+            Karate sprang. The kempo system most closely related to Karate is
+            the Shao-lin-ssu school, named after a famous Buddhist monastery,
+            the Shao-lin-ssu on Mt. Hao on the lower reaches of the Yangtze
+            river. Bodhidharma, the semi-legendary Buddhist priest who brought
+            Zen (Ch`an in Chinese) into China is said to be the founder of the
             monastery.
           </p>
         </div>
@@ -88,14 +88,14 @@ const OriginOfKarate = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-6 my-8">
           <p className="text-md md:text-lg w-full md:w-2/3">
             This Bodhidharma, (Daruma Daishi in Japanese) is thought to have
-            traveled from India to China to teach true Bhuddism to the Chinese
+            traveled from India to China to teach true Buddhism to the Chinese
             people. He found support for a while in the court of the scholarly
             and devout Emperor Wu of the kingdom of Lang. Later, however, the
-            two men's views of Buddhism proved irreconcilable and the Emperor
-            drove Bodhidharma from his kingdom. The Indian priest then moved to
-            the Shao-lin-Ssu monastery where he began the teaching of Zen. To
-            protect the Shao-lin-Ssu monks from the raids of followers of other
-            sects and nonbelievers, Bodhidharma is thought also to have
+            two men&apos;s views of Buddhism proved irreconcilable and the
+            Emperor drove Bodhidharma from his kingdom. The Indian priest then
+            moved to the Shao-lin-Ssu monastery where he began the teaching of
+            Zen. To protect the Shao-lin-Ssu monks from the raids of followers
+            of other sects and nonbelievers, Bodhidharma is thought also to have
             instituted a course of rigid physical training.
           </p>
           <div className="w-full md:w-1/3 flex-shrink-0">
@@ -120,7 +120,7 @@ const OriginOfKarate = () => {
             three thousand years old. We can readily perceive a similarity
             between Kempo poses and the positions of the figures in some Indian
             murals and statues of great age, as well as in the statues of the
-            guardian kings in many Japanese Buddist temples. These kings
+            guardian kings in many Japanese Buddhist temples. These kings
             represent figures of great valor who stand ready to protect from
             evil spirits. Their positions, based on those of ancient Indian hand
             to hand combat methods, employ a hand position with all the fingers
