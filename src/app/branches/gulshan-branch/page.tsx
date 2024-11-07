@@ -1,3 +1,4 @@
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -31,13 +32,19 @@ const GulshanBranch = () => {
         </div>
 
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center mb-10">
-          <Image
-            src="/assets/branches/arifsensei.jpg"
-            height={300}
-            width={300}
-            alt="ArifSensei"
-            className="mx-auto"
-          />
+          <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardItem translateZ="100" className="w-full mt-4">
+                <Image
+                  src="/assets/branches/arifsensei.jpg"
+                  height="500"
+                  width="500"
+                  className="h-90 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  alt="thumbnail"
+                />
+              </CardItem>
+            </CardBody>
+          </CardContainer>
           <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
             <h3 className="text-rose-900 font-bold text-[30px]">
               Sensei Arifur Rahman
