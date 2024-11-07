@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 
 const GulshanBranch = () => {
   return (
@@ -49,14 +49,26 @@ const GulshanBranch = () => {
               Branch Chief, Kyokushin Bangladesh
             </p>
             <p>Contact: +880 19784 99969 / +880 17984 99969</p>
-            <Link
-              href={"https://www.facebook.com/Bkyokushin/"}
-              passHref
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <FaFacebookSquare className="text-rose-900 text-[50px] md:ml-36 mt-4" />
-            </Link>
+
+            {/* Wrapper for icons */}
+            <div className="flex justify-center md:justify-start gap-4 mt-4 md:ml-[7.5rem]">
+              <Link
+                href="https://www.facebook.com/Bkyokushin/"
+                passHref
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaFacebookSquare className="text-rose-900 text-[50px]" />
+              </Link>
+              <Link
+                href="https://www.youtube.com/@bkyokushin9504" // Example YouTube link
+                passHref
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FaYoutube className="text-rose-900 text-[50px]" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
