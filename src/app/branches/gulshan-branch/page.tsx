@@ -22,11 +22,11 @@ const GulshanBranch = () => {
 
       {/* Contents */}
       <div className="bg-white w-full items-center justify-between">
-        <div className="text-center my-6">
+        <div className="text-center my-2">
           <h2 className="text-rose-900 font-bold text-[36px]">
             Kyokushin Karate Gulshan Branch
           </h2>
-          <p className="font-medium text-[26px] py-3">
+          <p className="font-medium text-[26px] py-1">
             50, Gulshan Avenue (3rd Floor), Gulshan-1, Dhaka
           </p>
         </div>
