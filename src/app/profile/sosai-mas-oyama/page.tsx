@@ -57,8 +57,8 @@ const Oyama = () => {
             landowner and the mayor of the town (Kimji). Mas Oyama was the
             fourth son of Sun Hyung in a family of six boys and one girl. His
             childhood name is Hyung Yee. At a relatively young age he was sent
-            to Manchuria, in Southern China, to live on his sister's farm. He
-            had to walk six miles to school over a hill to Yongee Primary
+            to Manchuria, in Southern China, to live on his sister&apos;s farm.
+            He had to walk six miles to school over a hill to Yongee Primary
             School. In school, he played soccer and took part in cross-country
             running. But most of his boyish enthusiasm was reserved for Chabee -
             a sort of Korean combination of jujutsu and Kempo.
@@ -76,8 +76,9 @@ const Oyama = () => {
             Korean until he was 13 years old - the year he went to Seoul to live
             with his aunt and attend junior high school in the capital. Next
             year at the tender age of 14, Hyung Yee left his native land for
-            Japan to attend a boys' military academy in Yamanashi Prefecture.
-            His specialty was mechanical training in aircraft engines.
+            Japan to attend a boys&apos; military academy in Yamanashi
+            Prefecture. His specialty was mechanical training in aircraft
+            engines.
           </p>
         </div>
 
@@ -94,7 +95,7 @@ const Oyama = () => {
             was trained in this electrifying martial art introduced into Japan
             from Okinawa. But Oyama was not satisfied with the training. In
             1938, at the age of 15, he traveled to Tokyo to train as an aviator,
-            to be like his hero of the time, Korea's first fighter pilot.
+            to be like his hero of the time, Korea&apos;s first fighter pilot.
             Survival on his own at that age proved to be more difficult than he
             thought.
             <br />
@@ -119,7 +120,7 @@ const Oyama = () => {
             <br />
             In 1946, when he was 23 years old, Mas Oyama met Eiji Yoshikawa, the
             author of the novel Musashi, which was based on the life and
-            exploits of Japan's most famous Samurai. Both the novel and the
+            exploits of Japan&apos;s most famous Samurai. Both the novel and the
             author helped to teach Mas Oyama about the Samurai Bushido code and
             what it meant. Around this time, he also visited another famous
             author, Shiro Ozaki who further enriched his knowledge of the
@@ -155,7 +156,7 @@ const Oyama = () => {
             <br />
             <br />
             In 1950, he began his training against the live bulls, acquiring a
-            room in a butcher's establishment. Around that time, he had
+            room in a butcher&apos;s establishment. Around that time, he had
             developed huge calluses on his fist knuckles. Mas Oyama went to the
             cattle ranch every day, observing the bulls, watching them get
             killed with a hammer. He could break 30 pieces of tiles with his
@@ -231,14 +232,14 @@ const Oyama = () => {
             In 1957, Mas Oyama travelled to the most northern island of
             Hokkaido. He even challenged fighting a bear during his stay there.
             It is also the year in which Mas Oyama completed his first Karate
-            book 'What is Karate'.
+            book &apos;What is Karate&apos;.
             <br />
             <br />
             In January 1958, he published "What is Karate" which became a
             bestseller with 500,000 copies sold. Mas Oyama went back to the
-            States in 1959, giving exhibitions teaching and opening 'School of
-            Oyama' dojos in Chicago, Los Angeles, San Francisco. In this year,
-            he accepted the invitation from the FBI in Washington D.C. for
+            States in 1959, giving exhibitions teaching and opening &apos;School
+            of Oyama&apos; dojos in Chicago, Los Angeles, San Francisco. In this
+            year, he accepted the invitation from the FBI in Washington D.C. for
             Karate instructions and demonstrations. In the same year, he was
             also invited by West Point Military Academy for Karate instructions
             and demonstrations.
@@ -248,11 +249,12 @@ const Oyama = () => {
         {/* Container for image and 6th paragraph */}
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-6 my-8">
           <p className="text-md md:text-lg w-full md:w-2/3 md:mt-7">
-            In 1960, Mas Oyama brought out a larger edition of 'What is Karate'.
+            In 1960, Mas Oyama brought out a larger edition of &apos;What is
+            Karate&apos;.
             <br />
             <br />
             In 1961, he changed the named "school of Oyama" to "Kyokushinkai."
-            In 1961 it wasn't until
+            In 1961 it wasn&apos;t until
             <br />
             <br />
             In 1962, Mas Oyama went to Europe and USA to study many kinds of
@@ -266,7 +268,7 @@ const Oyama = () => {
             <br />
             In 1964, Muai Thai Kick Boxing challenged Japanese Karate, but this
             challenge was not accepted by the Japanese Karate Federation. At
-            this time, Mas. Oyama's Karate School (dojo) accepted this
+            this time, Mas. Oyama&apos;s Karate School (dojo) accepted this
             challenged and sent three student to Thailand. There they won 2
             fights and redeemed the name of Japanese Karate.
             <br />
@@ -326,12 +328,12 @@ const Oyama = () => {
             South Pacific I.K.O. was founded.
             <br />
             <br />
-            In 1969, the movie “Boys' Karate," “Karate for the Millions” and
-            “Young Man’s Karate Self-defense" were released. The South African
-            and the South East Asian IKO were started. Y. Matsushima went to
-            South East Asia to teach Karate. The 1st All Japan Open Karate
-            Tournament was held in Tokyo which attracted Kick Boxing, Judo-Ka,
-            Kareta-ka from other styles and a large audience.
+            In 1969, the movie “Boys&apos; Karate," “Karate for the Millions”
+            and “Young Man’s Karate Self-defense" were released. The South
+            African and the South East Asian IKO were started. Y. Matsushima
+            went to South East Asia to teach Karate. The 1st All Japan Open
+            Karate Tournament was held in Tokyo which attracted Kick Boxing,
+            Judo-Ka, Kareta-ka from other styles and a large audience.
           </p>
         </div>
 
@@ -466,8 +468,8 @@ const Oyama = () => {
             Navy’s crew of Jean D` Arc. The first Sri Lanka Karate Championships
             was held. 3,000 people attended a party to celebrate 20 years of
             Kyokushin Karate and the 35th Wedding ceremony of Sosai Mas. Oyama
-            and Mrs. Oyama. In this year's December, “My Karate Budo Education"
-            and “Showa Gorin-no-sho“ were published.
+            and Mrs. Oyama. In this year&apos;s December, “My Karate Budo
+            Education" and “Showa Gorin-no-sho“ were published.
           </p>
         </div>
 
@@ -590,7 +592,7 @@ const Oyama = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-6 my-8">
           <div className="w-full md:w-1/3 flex-shrink-0">
             <p className="text-md md:text-lg text-center font-bold text-emerald-600">
-              Late Sosai Mas Oyama's Dogi (Dress) and Belt
+              Late Sosai Mas Oyama&apos;s Dogi (Dress) and Belt
             </p>
             <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
@@ -609,7 +611,7 @@ const Oyama = () => {
 
           <div className="w-full md:w-1/3 flex-shrink-0">
             <p className="text-md md:text-lg text-center font-bold text-emerald-600">
-              Sosai Mas. Oyama Memorial
+              Sosai Mas. Oyama&apos;s Memorial
             </p>
             <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
