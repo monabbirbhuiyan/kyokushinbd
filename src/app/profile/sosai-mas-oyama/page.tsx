@@ -235,14 +235,14 @@ const Oyama = () => {
             book &apos;What is Karate&apos;.
             <br />
             <br />
-            In January 1958, he published "What is Karate" which became a
-            bestseller with 500,000 copies sold. Mas Oyama went back to the
-            States in 1959, giving exhibitions teaching and opening &apos;School
-            of Oyama&apos; dojos in Chicago, Los Angeles, San Francisco. In this
-            year, he accepted the invitation from the FBI in Washington D.C. for
-            Karate instructions and demonstrations. In the same year, he was
-            also invited by West Point Military Academy for Karate instructions
-            and demonstrations.
+            In January 1958, he published &quot;What is Karate&quot; which
+            became a bestseller with 500,000 copies sold. Mas Oyama went back to
+            the States in 1959, giving exhibitions teaching and opening
+            &apos;School of Oyama&apos; dojos in Chicago, Los Angeles, San
+            Francisco. In this year, he accepted the invitation from the FBI in
+            Washington D.C. for Karate instructions and demonstrations. In the
+            same year, he was also invited by West Point Military Academy for
+            Karate instructions and demonstrations.
           </p>
         </div>
 
@@ -253,8 +253,8 @@ const Oyama = () => {
             Karate&apos;.
             <br />
             <br />
-            In 1961, he changed the named "school of Oyama" to "Kyokushinkai."
-            In 1961 it wasn&apos;t until
+            In 1961, he changed the named &quot;school of Oyama&quot; to
+            &quot;Kyokushinkai.&quot; In 1961 it wasn&apos;t until
             <br />
             <br />
             In 1962, Mas Oyama went to Europe and USA to study many kinds of
@@ -328,29 +328,31 @@ const Oyama = () => {
             South Pacific I.K.O. was founded.
             <br />
             <br />
-            In 1969, the movie “Boys&apos; Karate," “Karate for the Millions”
-            and “Young Man’s Karate Self-defense" were released. The South
-            African and the South East Asian IKO were started. Y. Matsushima
-            went to South East Asia to teach Karate. The 1st All Japan Open
-            Karate Tournament was held in Tokyo which attracted Kick Boxing,
-            Judo-Ka, Kareta-ka from other styles and a large audience.
+            In 1969, the movie &quot;Boys&apos; Karate,&quot; &quot;Karate for
+            the Millions&quot; and &quot;Young Man&apos;s Karate
+            Self-defense&quot; were released. The South African and the South
+            East Asian IKO were started. Y. Matsushima went to South East Asia
+            to teach Karate. The 1st All Japan Open Karate Tournament was held
+            in Tokyo which attracted Kick Boxing, Judo-Ka, Kareta-ka from other
+            styles and a large audience.
           </p>
         </div>
 
         {/* Container for image and 8th paragraph */}
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-6 my-8">
           <p className="text-md md:text-lg w-full md:w-2/3 md:mt-10">
-            In 1970, “Karate Class" and “Advanced Karate" were published.
+            In 1970, &quot;Karate Class&quot; and &quot;Advanced Karate&quot;
+            were published.
             <br />
             <br />
-            In 1971, “For People who Start Karate" was published. The USA Main
-            Branch was established in Manhattan, New York. N. Kishi was sent to
-            the US to teach Karate.
+            In 1971, &quot;For People who Start Karate&quot; was published. The
+            USA Main Branch was established in Manhattan, New York. N. Kishi was
+            sent to the US to teach Karate.
             <br />
             <br />
-            In 1972, “Fighting Spirit” was published. Seiji Isobe was sent to
-            Brazil to teach Karate. Y. Oyama went to the US to teach Karate. The
-            Movie “Kenka Karate" was released.
+            In 1972, &quot;Fighting Spirit&quot; was published. Seiji Isobe was
+            sent to Brazil to teach Karate. Y. Oyama went to the US to teach
+            Karate. The Movie &quot;Kenka Karate&quot; was released.
             <br />
             <br />
             In 1973, Mas. Oyama visited many branches throughout the world in
@@ -402,21 +404,21 @@ const Oyama = () => {
             was published.
             <br />
             <br />
-            In 1976, “Karate All Round the World" was published. The First World
-            Tournament movie “The Strongest Karate” was released. “The Way of
-            Kyokushin” was publisheed and “The Strongest Karate – part 2" was
-            released.
+            In 1976, &quot;Karate All Round the World&quot; was published. The
+            First World Tournament movie &quot;The Strongest Karate&quot; was
+            released. &quot;The Way of Kyokushin&quot; was publisheed and
+            &quot;The Strongest Karate – part 2&quot; was released.
             <br />
             <br />
-            In 1977, “Challenge to the Limits” was published. The English
-            quarterly magazine “Kyokush Karate” started. The Japanese monthly
-            magazine “Power Karate" started.
+            In 1977, &quot;Challenge to the Limits&quot; was published. The
+            English quarterly magazine &quot;Kyokush Karate&quot; started. The
+            Japanese monthly magazine &quot;Power Karate&quot; started.
             <br />
             <br />
-            In 1978, “The Godhand" comic strip started. Mas. Oyama went to Hong
-            Kong and he gave a grand and important speech in the ancient capital
-            of Nara, Japan. The first European Karate Tournament as held in
-            London. The Malaysian Open Karate Tournament was held.
+            In 1978, &quot;The Godhand&quot; comic strip started. Mas. Oyama
+            went to Hong Kong and he gave a grand and important speech in the
+            ancient capital of Nara, Japan. The first European Karate Tournament
+            as held in London. The Malaysian Open Karate Tournament was held.
           </p>
         </div>
 
@@ -428,10 +430,10 @@ const Oyama = () => {
             spectators followed the event over three days.
             <br />
             <br />
-            In 1980, the book “The Last Strongest Karate" concerning the 2nd
-            World open Karate Tournament was released. The Second L.P. “The
-            Essence of Kyokushin Karate -- Mas. Oyama`s Philosophy" was released
-            under the label of King Records.
+            In 1980, the book &quot;The Last Strongest Karate&quot; concerning
+            the 2nd World open Karate Tournament was released. The Second L.P.
+            &quot;The Essence of Kyokushin Karate -- Mas. Oyama`s
+            Philosophy&quot; was released under the label of King Records.
             <br />
             <br />
             In 1981, The 1st Asia Open Karate Tournament was held in Jakarta,
@@ -465,11 +467,11 @@ const Oyama = () => {
         <div className="container mx-auto">
           <p className="text-md md:text-lg">
             In 1983, a welcoming Karate demonstration was held for the France
-            Navy’s crew of Jean D` Arc. The first Sri Lanka Karate Championships
-            was held. 3,000 people attended a party to celebrate 20 years of
-            Kyokushin Karate and the 35th Wedding ceremony of Sosai Mas. Oyama
-            and Mrs. Oyama. In this year&apos;s December, “My Karate Budo
-            Education" and “Showa Gorin-no-sho“ were published.
+            Navy&apos;s crew of Jean D` Arc. The first Sri Lanka Karate
+            Championships was held. 3,000 people attended a party to celebrate
+            20 years of Kyokushin Karate and the 35th Wedding ceremony of Sosai
+            Mas. Oyama and Mrs. Oyama. In this year&apos;s December, &quot;My
+            Karate Budo Education&quot; and “Showa Gorin-no-sho“ were published.
           </p>
         </div>
 
@@ -480,10 +482,10 @@ const Oyama = () => {
             from 20th to 23rd Jan.
             <br />
             <br />
-            In 1985, the movie “The Kyokushin Way" was released by Shochiku Fuji
-            Co. The 17th All Japan Karate Tournament was held at Tokyo, with the
-            champion being Akiyoshi Matsui. The book “Kuken-Shikon" was
-            published in the same year.
+            In 1985, the movie &quot;The Kyokushin Way&quot; was released by
+            Shochiku Fuji Co. The 17th All Japan Karate Tournament was held at
+            Tokyo, with the champion being Akiyoshi Matsui. The book
+            &quot;Kuken-Shikon&quot; was published in the same year.
             <br />
             <br />
             In 1986 June, Akiyoshi Matsui currently the Kancho (Director) of
