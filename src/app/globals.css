@@ -191,7 +191,7 @@
   /* END of Gradients */
   /* START of Common */
   .container {
-    @apply mx-auto max-w-[1500px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+    @apply mx-auto max-w-[1500px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4 max-sm:max-w-[380px];
   }
 
   .caption {
@@ -375,4 +375,14 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.first-section {
+  padding: 0; /* Or any custom styling specific to the first section */
+}
+
+.second-section {
+  max-width: 1200px; /* Or your desired width */
+  margin: 0 auto;
+  padding: 1rem;
 }

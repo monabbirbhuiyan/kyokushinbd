@@ -32,7 +32,7 @@ const HalughatBranch = () => {
         </div>
 
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center mb-10">
-          <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
+          <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md mt-10">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image

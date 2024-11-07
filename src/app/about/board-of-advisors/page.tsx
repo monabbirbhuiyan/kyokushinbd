@@ -21,9 +21,9 @@ const BoardOfAdvisors = () => {
         />
       </div>
 
-      <div className="grid w-full gap-1 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 items-center justify-center mb-5">
+      <div className="container grid w-full gap-1 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 items-center justify-center mb-5">
         {/* 1 */}
-        <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
+        <CardContainer className="nter-var max-w-xs sm:max-w-sm lg:max-w-md mt-10 ">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -57,7 +57,7 @@ const BoardOfAdvisors = () => {
           </CardBody>
         </CardContainer>
         {/* 2 */}
-        <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md">
+        <CardContainer className="nter-var max-w-xs sm:max-w-sm lg:max-w-md mt-10 ">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -91,7 +91,7 @@ const BoardOfAdvisors = () => {
           </CardBody>
         </CardContainer>
         {/* 3 */}
-        <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md">
+        <CardContainer className="nter-var max-w-xs sm:max-w-sm lg:max-w-md mt-10 ">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -125,7 +125,7 @@ const BoardOfAdvisors = () => {
           </CardBody>
         </CardContainer>
         {/* 4 */}
-        <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md">
+        <CardContainer className="nter-var max-w-xs sm:max-w-sm lg:max-w-md mt-10 ">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -159,7 +159,7 @@ const BoardOfAdvisors = () => {
           </CardBody>
         </CardContainer>
         {/* 5 */}
-        <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md">
+        <CardContainer className="nter-var max-w-xs sm:max-w-sm lg:max-w-md mt-10 ">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -182,6 +182,13 @@ const BoardOfAdvisors = () => {
               className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
             >
               Artist
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300 pb-5"
+            >
+              {"     "}
             </CardItem>
           </CardBody>
         </CardContainer>

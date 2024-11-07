@@ -210,16 +210,20 @@ const Navbar = () => {
               <li className="nav-li">
                 <MenuItem setActive={setActive} active={active} item="Profile">
                   <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Origin of Karate</HoveredLink>
-                    <HoveredLink href="/interface-design">
+                    <HoveredLink href="/profile/origin-of-karate">
+                      Origin of Karate
+                    </HoveredLink>
+                    <HoveredLink href="/profile/kyokushin-karate">
                       Kyokushin Karate
                     </HoveredLink>
-                    <HoveredLink href="/seo">Sosai Mas Oyama</HoveredLink>
-                    <HoveredLink href="/branding">
+                    <HoveredLink href="/profile/sosai-mas-oyama">
+                      Sosai Mas Oyama
+                    </HoveredLink>
+                    <HoveredLink href="/profile/kancho-shokei-matsui">
                       Kancho Shokei Matsui
                     </HoveredLink>
-                    <HoveredLink href="/branding">
-                      Shihan Monir Ahmed Bhuiyan
+                    <HoveredLink href="/profile/shihan-monir-bhuiyan">
+                      Shihan Monir Bhuiyan
                     </HoveredLink>
                   </div>
                 </MenuItem>
