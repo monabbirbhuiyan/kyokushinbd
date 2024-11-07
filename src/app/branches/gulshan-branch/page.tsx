@@ -50,7 +50,7 @@ const GulshanBranch = () => {
               Sensei Arifur Rahman
             </h3>
             <p className="font-medium text-[20px]">
-              Black Belt 3rd Dan from Japan
+              Black Belt 4th Dan from Japan
             </p>
             <p className="font-medium text-[20px]">
               Branch Chief, Kyokushin Bangladesh
