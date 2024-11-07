@@ -132,7 +132,7 @@ const Navbar = () => {
         hasScrolled && "py-2 bg-black-300 backdrop-blur-[10px]"
       )}
     >
-      <div className="container flex items-center h-14 max-lg:px-5">
+      <div className="container flex items-center h-14 max-lg:px-5 space-x-6">
         <Link className="flex-1 cursor-pointer lg:hidden z-2" href="/">
           <Image
             src="/assets/KanjiBack.png"
@@ -180,6 +180,17 @@ const Navbar = () => {
                     <HoveredLink href="/branding">Others</HoveredLink>
                   </div>
                 </MenuItem>
+                <div className="dot" />
+                <MenuItem setActive={setActive} active={active} item="Events">
+                  <div className="flex flex-col space-y-4 text-sm">
+                    <HoveredLink href="/web-dev">Tournaments</HoveredLink>
+                    <HoveredLink href="/interface-design">
+                      Kyu Belt Test
+                    </HoveredLink>
+                    <HoveredLink href="/seo">Black Belt Test</HoveredLink>
+                    <HoveredLink href="/branding">Camp</HoveredLink>
+                  </div>
+                </MenuItem>
               </li>
               <li className="nav-logo">
                 <Link href={"/"} className="cursor-pointer max-lg:hidden">
@@ -197,14 +208,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-li">
-                <MenuItem setActive={setActive} active={active} item="Events">
+                <MenuItem setActive={setActive} active={active} item="Profile">
                   <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Tournaments</HoveredLink>
+                    <HoveredLink href="/web-dev">Origin of Karate</HoveredLink>
                     <HoveredLink href="/interface-design">
-                      Kyu Belt Test
+                      Kyokushin Karate
                     </HoveredLink>
-                    <HoveredLink href="/seo">Black Belt Test</HoveredLink>
-                    <HoveredLink href="/branding">Camp</HoveredLink>
+                    <HoveredLink href="/seo">Sosai Mas Oyama</HoveredLink>
+                    <HoveredLink href="/branding">
+                      Kancho Shokei Matsui
+                    </HoveredLink>
+                    <HoveredLink href="/branding">
+                      Shihan Monir Ahmed Bhuiyan
+                    </HoveredLink>
                   </div>
                 </MenuItem>
                 <div className="dot" />
@@ -228,11 +244,19 @@ const Navbar = () => {
                   </div>
                 </MenuItem>
                 <div className="dot" />
+                <Link href={"/"}>
+                  <MenuItem
+                    setActive={setActive}
+                    active={null}
+                    item="Contact"
+                  />
+                </Link>
+                <div className="dot" />
                 <div className="cursor-pointer max-lg:my-4 max-lg:h5">
                   <button className="p-[3px] relative">
                     <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-rose-800 to-gray-200" />
                     <div className="px-5 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:text-black hover:bg-transparent base-bold">
-                      Contact
+                      Login
                     </div>
                   </button>
                 </div>

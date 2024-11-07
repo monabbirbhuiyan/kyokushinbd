@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -9,7 +10,16 @@ const Footer = () => {
         </div>
 
         <div className="text-md text-white ">
-          Developed by <span className="base-bold">Monabbir Bhuiyan</span>
+          Developed by{" "}
+          <Link
+            href={"https://monabbir.vercel.app/"}
+            passHref
+            rel="noopener noreferrer"
+            target="_blank"
+            className="base-bold cursor-pointer"
+          >
+            Monabbir Bhuiyan
+          </Link>
         </div>
       </div>
     </footer>
