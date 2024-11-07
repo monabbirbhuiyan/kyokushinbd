@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const GulshanBranch = () => {
   return (
@@ -47,6 +49,14 @@ const GulshanBranch = () => {
               Branch Chief, Kyokushin Bangladesh
             </p>
             <p>Contact: +880 19784 99969 / +880 17984 99969</p>
+            <Link
+              href={"https://www.facebook.com/Bkyokushin/"}
+              passHref
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaFacebookSquare className="text-rose-900 text-[50px] md:ml-36 mt-4" />
+            </Link>
           </div>
         </div>
       </div>
