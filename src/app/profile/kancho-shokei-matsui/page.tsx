@@ -59,10 +59,10 @@ const Kancho = () => {
             <br />
             In 1980, Matsui placed fourth in the 12th All Japan Open Karate
             Championships when he was just 17. Soon after, he became Chief
-            Instructor of the International Kyokushin Headquarters "Honbu" Dojo
-            in Tokyo, Japan. Both in 1981 and 1982, Matsui took 3rd Place in the
-            All Japan Open Karate Championships and then 8th place at the same
-            event in 1983.
+            Instructor of the International Kyokushin Headquarters
+            &quot;Honbu&quot; Dojo in Tokyo, Japan. Both in 1981 and 1982,
+            Matsui took 3rd Place in the All Japan Open Karate Championships and
+            then 8th place at the same event in 1983.
           </p>
         </div>
 
@@ -74,15 +74,15 @@ const Kancho = () => {
             place finish at the 3rd World Open Karate Tournament in 1984. He
             succeeded in winning the All Japan Championships in each of 1985 and
             1986, and then successfully completed the ultimate Kyokushin
-            challenge, the "100 Man Kumite" in record time. In Japan, students
-            around the world continue to try and capture some of the essence of
-            Kancho&apos;s style of fighting in their own training. Sosai Mas
-            Oyama used to call him "a true champion"; he became known as the man
-            of "unparalleled genius", one who comes along but once in an eon,
-            and then in 1987 became the youngest ever Champion of the World at
-            the age of 24. In May of 1992, Matsui opened his own Karate Dojo
-            (School) in Asakusa, Tokyo and was later appointed Branch Chief by
-            Sosai Mas Oyama.
+            challenge, the &quot;100 Man Kumite&quot; in record time. In Japan,
+            students around the world continue to try and capture some of the
+            essence of Kancho&apos;s style of fighting in their own training.
+            Sosai Mas Oyama used to call him &quot;a true champion&quot;; he
+            became known as the man of &quot;unparalleled genius&quot;, one who
+            comes along but once in an eon, and then in 1987 became the youngest
+            ever Champion of the World at the age of 24. In May of 1992, Matsui
+            opened his own Karate Dojo (School) in Asakusa, Tokyo and was later
+            appointed Branch Chief by Sosai Mas Oyama.
           </p>
           <div className="w-full md:w-1/3 flex-shrink-0">
             <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
@@ -104,11 +104,11 @@ const Kancho = () => {
           <p className="text-md md:text-lg">
             On April 26, 1994, founder Sosai Mas Oyama regrettably passed away,
             leaving the Directorship of the worldwide organization to Matsui,
-            who became "Kancho" (Director). In the wake of the Sosai&apos;s
-            untimely death, and despite the well-documented backlash concerning
-            his appointment, Kancho Matsui forged ahead that year staging the
-            11th All Japan Weight Tournament and the 27th All Japan
-            Championships, the latter with a record 16,000 spectators in
+            who became &quot;Kancho&quot; (Director). In the wake of the
+            Sosai&apos;s untimely death, and despite the well-documented
+            backlash concerning his appointment, Kancho Matsui forged ahead that
+            year staging the 11th All Japan Weight Tournament and the 27th All
+            Japan Championships, the latter with a record 16,000 spectators in
             attendance. The following year, he produced the hugely successful,
             6th World Open Karate Tournament, to which 168 fighters from all
             over the world competed and more than 25,000 spectators witnessed.
@@ -133,17 +133,18 @@ const Kancho = () => {
           <p className="text-md md:text-lg w-full md:w-2/3 md:pt-5 ">
             Kancho Shokei Matsui has planned, produced and presented numerous
             groundbreaking martial arts events to the world, including
-            inaugurating the "World Cup"-Team Karate Championships, the
-            "Women&apos;s World Karate Championships", the "World Weight
-            Category Karate Championships", the "International Senior Karate
-            Championships", the "International Kata Championships" and the
-            "International Youth Karate Championships", to which nearly 2,000
-            competitors aged 4-17 from around the world participated. These
-            events are in addition to continuing the grand legacy Mas Oyama
-            began by presenting the once-every-four-year, World Open Karate
-            Tournament, an event that has grown to become the largest, most
-            revered and renowned martial arts competition the world has ever
-            seen.
+            inaugurating the &quot;World Cup&quot;-Team Karate Championships,
+            the &quot;Women&apos;s World Karate Championships&quot;, the
+            &quot;World Weight Category Karate Championships&quot;, the
+            &quot;International Senior Karate Championships&quot;, the
+            &quot;International Kata Championships&quot; and the
+            &quot;International Youth Karate Championships&quot;, to which
+            nearly 2,000 competitors aged 4-17 from around the world
+            participated. These events are in addition to continuing the grand
+            legacy Mas Oyama began by presenting the once-every-four-year, World
+            Open Karate Tournament, an event that has grown to become the
+            largest, most revered and renowned martial arts competition the
+            world has ever seen.
           </p>
         </div>
 

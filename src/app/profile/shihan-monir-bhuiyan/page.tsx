@@ -171,14 +171,14 @@ const ShihanMonir = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-6 my-8">
           <p className="text-md md:text-lg w-full md:w-2/3 md:pt-5">
             <span className="font-bold">1989:</span> March, as a dreamy young
-            man, Monir’s long awaited dream came true, he received his Black
-            Belt 1st DAN. He participated in the Nakano ken open full-contact
-            Karate Tournament and took 3rd Place. He also participated in the
-            Japan UV open full-contact Karate tournament and became champion.
-            Along with many other tournaments, he participated in the Osaka
-            weight category full-contact karate Tournament as well. In December
-            of the same year, Monir Bhuiyan participated in the 21st All Japan
-            Open Full-Contact Karate Tournament.
+            man, Monir&apos;s long awaited dream came true, he received his
+            Black Belt 1st DAN. He participated in the Nakano ken open
+            full-contact Karate Tournament and took 3rd Place. He also
+            participated in the Japan UV open full-contact Karate tournament and
+            became champion. Along with many other tournaments, he participated
+            in the Osaka weight category full-contact karate Tournament as well.
+            In December of the same year, Monir Bhuiyan participated in the 21st
+            All Japan Open Full-Contact Karate Tournament.
             <br />
             <br />
             <span className="font-bold">1990:</span> March, Monir Ahmed Bhuiyan
@@ -214,7 +214,7 @@ const ShihanMonir = () => {
                   height="300"
                   width="300"
                   className="w-full h-[300px] object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="Sosai Oyama"
+                  alt="Shihan Monir at World Tournamnet"
                 />
               </CardItem>
             </CardContainer>
@@ -227,7 +227,7 @@ const ShihanMonir = () => {
                   height="300"
                   width="300"
                   className="w-full h-[300px] object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="Sosai Oyama"
+                  alt="Shihan Monir in Japanese Magazine"
                 />
               </CardItem>
             </CardContainer>
@@ -240,7 +240,7 @@ const ShihanMonir = () => {
                   height="300"
                   width="300"
                   className="w-full h-[300px] object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="Sosai Oyama"
+                  alt="Shihan Monir in Japanese Magazine"
                 />
               </CardItem>
             </CardContainer>
@@ -253,7 +253,7 @@ const ShihanMonir = () => {
                   height="300"
                   width="300"
                   className="w-full h-[300px] object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="Sosai Oyama"
+                  alt="Shihan Monir in Japanese Magazine"
                 />
               </CardItem>
             </CardContainer>
@@ -305,8 +305,8 @@ const ShihanMonir = () => {
             in Sri Lanka. This was the last time that Sensei Monir had a chance
             to meet with Sosai Mas. Oyama. It was in the same year that Sensei
             Monir was invited from the Bangladesh Television magazine program
-            "Ityadi." This event was a turning point for the history of
-            Bangladeshi Martial Arts.
+            &quot;Ityadi.&quot; This event was a turning point for the history
+            of Bangladeshi Martial Arts.
           </p>
         </div>
 
@@ -331,7 +331,7 @@ const ShihanMonir = () => {
             <span className="font-bold">1998:</span>​ Branch Chief Sensei Monir
             Ahmed Bhuiyan recieved an invitation from Bangladesh Television
             (BTV). It was for a Kyokushin Karate instructional show in the BTV’s
-            "Krirajagat" program broadcasted every Friday for a year.
+            &quot;Krirajagat&quot; program broadcasted every Friday for a year.
             <br />
             <br />
           </p>
@@ -369,15 +369,15 @@ const ShihanMonir = () => {
             Gymnasium Hall.
             <br />
             <br />
-            <span className="font-bold">2003:</span> Branch Chief Sensei Monir’s
-            dream was successful as The 1st All Bangladesh Open Full Contact
-            Karate Tournament was held on 12th September in the Dhaka University
-            Gymnasium Hall. The Chief Guest was Matsushiro Horiguchi
-            (Hon&apos;ble Ambassador, Embassy of Japan, Dhaka). In the same
-            year, one Bangladesh Branch student participated in the 8th World
-            Open Full Contact Karate Tournament in Tokyo, Japan. Sensei Monir
-            participated in the Mitsumine Dan (Black Belt) Promotion Test and
-            achieved his Black Belt 4th Dan.
+            <span className="font-bold">2003:</span> Branch Chief Sensei
+            Monir&apos;s dream was successful as The 1st All Bangladesh Open
+            Full Contact Karate Tournament was held on 12th September in the
+            Dhaka University Gymnasium Hall. The Chief Guest was Matsushiro
+            Horiguchi (Hon&apos;ble Ambassador, Embassy of Japan, Dhaka). In the
+            same year, one Bangladesh Branch student participated in the 8th
+            World Open Full Contact Karate Tournament in Tokyo, Japan. Sensei
+            Monir participated in the Mitsumine Dan (Black Belt) Promotion Test
+            and achieved his Black Belt 4th Dan.
           </p>
           <div className="w-full md:w-1/3 flex-shrink-0">
             <CardContainer className="inter-var max-w-xs sm:max-w-sm lg:max-w-md ">
@@ -496,8 +496,7 @@ const ShihanMonir = () => {
                   width="500"
                   className="h-90 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="1st International Tournament"
-                />{" "}
-                "
+                />
               </CardItem>
             </CardContainer>
           </div>
