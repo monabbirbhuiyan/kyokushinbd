@@ -21,10 +21,10 @@ const AboutUs = () => {
         />
       </div>
 
-      <div className="bg-gray-50">
-        <section className="flex items-center justify-center mt-14 px-5 sm:px-8 lg:px-10 xl:px-22">
+      <div className="bg-gray-50 w-full">
+        <section className="flex items-center justify-center mt-14 container mx-auto">
           <div>
-            <p className="text-justify mb-7 text-sm lg:text-lg">
+            <p className="text-justify mb-7 text-sm lg:text-lg container">
               At Kyokushin Karate Bangladesh, we embody the values and teachings
               of the International Karate Organization (IKO) and the
               Kyokushinkaikan. Our journey follows the path of Full-Contact
@@ -58,28 +58,28 @@ const AboutUs = () => {
               cultivate not just martial skills but values that shape a better
               world.
             </p>
+
+            <div className="flex w-full items-center justify-center mb-5 mt-7 container mx-auto">
+              <Image
+                src={"/assets/about/aboutkanji.jpg"}
+                height={20}
+                width={1000}
+                alt="Kanji"
+                className="mt-10 w-full max-w-[1000px] sm:w-[60%] md:w-[1000px]"
+              />
+            </div>
+
+            <div className="mt-22 mb-20 container mx-auto">
+              <p className="text-justify mb-7 text-xl sm:text-2xl text-rose-800 font-semibold">
+                খিউকুশিন কারাতে! জাতি, জাতীয়তা, রাজনীতি, দর্শন, ধর্ম, লিঙ্গ বা
+                বয়সের উপর ভিত্তি করে কুসংস্কার প্রচার বা অনুশীলন করে না, বরং
+                স্বীকার করে যে প্রত্যেকের সমান অধিকার রয়েছে। খিউকুশিন কারাতের
+                সর্বশ্রেষ্ঠ সাধনা হল আন্তর্জাতিক বন্ধুত্ব, সম্মানজনক সম্পর্ক এবং
+                বিশ্ব শান্তির লক্ষ্যে পৌঁছানো।
+              </p>
+            </div>
           </div>
         </section>
-
-        <div className="flex w-full items-center justify-center mb-5 mt-7">
-          <Image
-            src={"/assets/about/aboutkanji.jpg"}
-            height={20}
-            width={1000}
-            alt="Kanji"
-            className="mt-10 w-full max-w-[1000px] sm:w-[60%] md:w-[1000px]"
-          />
-        </div>
-
-        <div className="mt-22 mb-20 px-4 sm:px-6 lg:px-10">
-          <p className="text-justify mb-7 text-xl sm:text-2xl text-rose-800 font-semibold">
-            খিউকুশিন কারাতে! জাতি, জাতীয়তা, রাজনীতি, দর্শন, ধর্ম, লিঙ্গ বা
-            বয়সের উপর ভিত্তি করে কুসংস্কার প্রচার বা অনুশীলন করে না, বরং
-            স্বীকার করে যে প্রত্যেকের সমান অধিকার রয়েছে। খিউকুশিন কারাতের
-            সর্বশ্রেষ্ঠ সাধনা হল আন্তর্জাতিক বন্ধুত্ব, সম্মানজনক সম্পর্ক এবং
-            বিশ্ব শান্তির লক্ষ্যে পৌঁছানো।
-          </p>
-        </div>
       </div>
     </>
   );

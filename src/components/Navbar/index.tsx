@@ -172,12 +172,13 @@ const Navbar = () => {
                 <div className="dot" />
                 <MenuItem setActive={setActive} active={active} item="Info">
                   <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Addmission</HoveredLink>
-                    <HoveredLink href="/interface-design">
+                    <HoveredLink href="/info/admission">Admission</HoveredLink>
+                    <HoveredLink href="/info/class-routine">
                       Class Routine
                     </HoveredLink>
-                    <HoveredLink href="/seo">Yearly Schedule</HoveredLink>
-                    <HoveredLink href="/branding">Others</HoveredLink>
+                    <HoveredLink href="/info/yearly-schedule">
+                      Yearly Schedule
+                    </HoveredLink>
                   </div>
                 </MenuItem>
                 <div className="dot" />
