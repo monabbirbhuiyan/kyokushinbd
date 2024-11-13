@@ -4,6 +4,12 @@ import clsx from "clsx";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { User } from "@clerk/nextjs/server";
+import { UserButton } from "@clerk/nextjs";
+
+type Props = {
+  user?: null | User;
+};
 
 const transition = {
   type: "spring",
@@ -106,7 +112,7 @@ export const Menu = ({
   );
 };
 
-const Navbar = () => {
+const Navbar = ({ user }: Props) => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [active, setActive] = useState<string | null>(null);
@@ -176,9 +182,6 @@ const Navbar = () => {
                     <HoveredLink href="/info/class-routine">
                       Class Routine
                     </HoveredLink>
-                    <HoveredLink href="/info/yearly-schedule">
-                      Yearly Schedule
-                    </HoveredLink>
                   </div>
                 </MenuItem>
                 <div className="dot" />
@@ -237,9 +240,6 @@ const Navbar = () => {
                     <HoveredLink href="/branches/haluaghat-branch">
                       Haluaghat Branch
                     </HoveredLink>
-                    <HoveredLink href="/branches/uttara-branch">
-                      Uttara Branch
-                    </HoveredLink>
                     <HoveredLink href="/branches/mohakhali-dohs-branch">
                       Mohakhali DOHS Branch
                     </HoveredLink>
@@ -249,7 +249,7 @@ const Navbar = () => {
                   </div>
                 </MenuItem>
                 <div className="dot" />
-                <Link href={"/"}>
+                <Link href={"/contact"}>
                   <MenuItem
                     setActive={setActive}
                     active={null}
@@ -261,9 +261,12 @@ const Navbar = () => {
                   <button className="p-[3px] relative">
                     <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-rose-800 to-gray-200" />
                     <div className="px-5 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:text-black hover:bg-transparent base-bold">
-                      Login
+                      <Link href={"/students"}>
+                        {user ? "Portal" : "Login"}
+                      </Link>
                     </div>
                   </button>
+                  {user ? <UserButton afterSignOutUrl="/" /> : null}
                 </div>
               </li>
             </Menu>

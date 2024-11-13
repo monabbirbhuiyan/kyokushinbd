@@ -25,10 +25,12 @@ const config: Config = {
         s3: "#334679",
         s4: "#1959AD",
         s5: "#263466",
+
         black: {
           "100": "#05091D",
           DEFAULT: "#000000",
         },
+
         background: "var(--background)",
         foreground: "var(--foreground)",
         card: {
@@ -69,6 +71,11 @@ const config: Config = {
           "4": "var(--chart-4)",
           "5": "var(--chart-5)",
         },
+      },
+
+      backgroundImage: {
+        bannerImg: "url('/assets/auth.jpg')",
+        footerImg: "url('/assets/footer.jpg')",
       },
       boxShadow: {
         "100":
