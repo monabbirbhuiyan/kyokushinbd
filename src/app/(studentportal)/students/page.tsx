@@ -1,4 +1,5 @@
 import { getAuthUserDetails } from "@/actions/auth";
+import UserDetails from "@/components/forms/user-details";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import React from "react";
@@ -16,7 +17,9 @@ const Page = async () => {
     <div className="flex justify-center items-center mt-4">
       <div className="max-w-[850px] border-[1px] p-4 rounded-xl">
         <h1 className="text-4xl"> Create Account</h1>
-        {/* <UserDetails /> */}
+        <UserDetails
+          userData={{ email: authUser?.emailAddresses[0].emailAddress }}
+        />
       </div>
     </div>
   );

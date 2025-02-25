@@ -33,10 +33,15 @@ export const initUser = async (newUser: Partial<User>) => {
     update: newUser,
     create: {
       id: user.id,
-      avatarUrl: user.imageUrl,
-      email: user.emailAddresses[0].emailAddress,
-      fullname: `${user.firstName} ${user.lastName}`,
-      phoneNumber: user.phoneNumbers[0].phoneNumber,
+      avatarUrl: user.imageUrl ?? "",
+      email: user.emailAddresses[0]?.emailAddress ?? "",
+      fullname: user.fullName ?? "",
+      phoneNumber: user.phoneNumbers[0]?.phoneNumber ?? "",
+      address: "",
+      city: "",
+      zipCode: "",
+      state: "",
+      country: "",
     },
   });
 

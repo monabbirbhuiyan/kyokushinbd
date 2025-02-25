@@ -1,1 +1,8 @@
-{}
+{
+  "/(studentportal)/students/page": "app/(studentportal)/students/page.js",
+  "/page": "app/page.js",
+  "/(website)/profile/origin-of-karate/page": "app/(website)/profile/origin-of-karate/page.js",
+  "/(website)/contact/page": "app/(website)/contact/page.js",
+  "/(website)/branches/gulshan-branch/page": "app/(website)/branches/gulshan-branch/page.js",
+  "/(website)/about/executive-committee/page": "app/(website)/about/executive-committee/page.js"
+}
