@@ -134,8 +134,8 @@ const UserDetails = ({ userData }: Props) => {
         <CardHeader>
           <CardTitle>Student Information</CardTitle>
           <CardDescription>
-            Let's create an account for you to access the student portal. You
-            can edit your information later from the profile settings tab.
+            Let&apos;s create an account for you to access the student portal.
+            You can edit your information later from the profile settings tab.
           </CardDescription>
         </CardHeader>
         <CardContent>
